@@ -1,2 +1,2 @@
-# vite-template
-my Vite project's template
+# react-template
+my React project's template
