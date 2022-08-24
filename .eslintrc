@@ -8,7 +8,16 @@
     "standard-with-typescript",
     "prettier"
   ],
-  "overrides": [],
+  "overrides": [{
+    "files": [
+      "**/__tests__/**/*.+(ts|tsx|js)",
+      "**/?(*.)+(spec|test).+(ts|tsx|js)"
+    ],
+    "extends": [
+      "plugin:jest-dom/recommended",
+      "plugin:testing-library/react"
+    ]
+  }],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -17,11 +26,15 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "react"],
+  "plugins": ["@typescript-eslint", "react", "jest-dom", "testing-library"],
   "rules": {
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
     "no-console": ["warn"],
     "no-unused-vars": ["warn"]
-  }
+  },
+  "ignorePatterns": [
+    "vite.config.ts",
+    "vitest.setup.ts"
+  ]
 }
