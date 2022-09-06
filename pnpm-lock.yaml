@@ -16,7 +16,7 @@ specifiers:
   eslint-plugin-jest-dom: 4.0.2
   eslint-plugin-n: 15.2.5
   eslint-plugin-promise: 6.0.1
-  eslint-plugin-react: 7.31.4
+  eslint-plugin-react: 7.31.7
   eslint-plugin-testing-library: 5.6.1
   jsdom: 20.0.0
   prettier: 2.7.1
@@ -50,7 +50,7 @@ devDependencies:
   eslint-plugin-jest-dom: 4.0.2_eslint@8.23.0
   eslint-plugin-n: 15.2.5_eslint@8.23.0
   eslint-plugin-promise: 6.0.1_eslint@8.23.0
-  eslint-plugin-react: 7.31.4_eslint@8.23.0
+  eslint-plugin-react: 7.31.7_eslint@8.23.0
   eslint-plugin-testing-library: 5.6.1_sorwav4hsh5vncerguqybud76i
   jsdom: 20.0.0
   prettier: 2.7.1
@@ -1742,8 +1742,8 @@ packages:
       eslint: 8.23.0
     dev: true
 
-  /eslint-plugin-react/7.31.4_eslint@8.23.0:
-    resolution: {integrity: sha512-2ry4HTT+c+hSgpnV2DXj3d5oAmH11KH8HHQwtcfRdq6/+R3nEimvMbwAqK79eb4ZW1/hp8yC5elBusZM6li/Gg==}
+  /eslint-plugin-react/7.31.7_eslint@8.23.0:
+    resolution: {integrity: sha512-8NldBTeYp/kQoTV1uT0XF6HcmDqbgZ0lNPkN0wlRw8DJKXEnaWu+oh/6gt3xIhzvQ35wB2Y545fJhIbJSZ2NNw==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
