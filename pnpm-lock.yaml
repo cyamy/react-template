@@ -17,7 +17,7 @@ specifiers:
   eslint-plugin-n: 15.2.5
   eslint-plugin-promise: 6.0.1
   eslint-plugin-react: 7.31.7
-  eslint-plugin-testing-library: 5.6.1
+  eslint-plugin-testing-library: 5.6.2
   jsdom: 20.0.0
   prettier: 2.7.1
   react: 18.2.0
@@ -51,7 +51,7 @@ devDependencies:
   eslint-plugin-n: 15.2.5_eslint@8.23.0
   eslint-plugin-promise: 6.0.1_eslint@8.23.0
   eslint-plugin-react: 7.31.7_eslint@8.23.0
-  eslint-plugin-testing-library: 5.6.1_sorwav4hsh5vncerguqybud76i
+  eslint-plugin-testing-library: 5.6.2_sorwav4hsh5vncerguqybud76i
   jsdom: 20.0.0
   prettier: 2.7.1
   stylelint: 14.11.0
@@ -1825,8 +1825,8 @@ packages:
       string.prototype.matchall: 4.0.7
     dev: true
 
-  /eslint-plugin-testing-library/5.6.1_sorwav4hsh5vncerguqybud76i:
-    resolution: {integrity: sha512-url6n7SbPg77TM2MLy1XkcrQEWiS5nKcDiJgwOYz2qGCEMywM7gizPzLi3XalJPdpIkQAo2BJFQZC6jggsyCuQ==}
+  /eslint-plugin-testing-library/5.6.2_sorwav4hsh5vncerguqybud76i:
+    resolution: {integrity: sha512-imakD/MY+8Rp3r69G7Pt1egmLZscSWoIhrxgdVR3kr2nlHImRRh7LeFcoqfAA5CK1rzFFV6rBEp3GTfOEYMpNw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0, npm: '>=6'}
     peerDependencies:
       eslint: ^7.5.0 || ^8.0.0
