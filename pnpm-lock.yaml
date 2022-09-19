@@ -27,7 +27,7 @@ specifiers:
   stylelint-config-recess-order: 3.0.0
   stylelint-config-standard: 28.0.0
   typescript: '*'
-  vite: 3.1.0
+  vite: 3.1.2
   vitest: 0.23.2
 
 dependencies:
@@ -42,7 +42,7 @@ devDependencies:
   '@types/testing-library__jest-dom': 5.14.5
   '@typescript-eslint/eslint-plugin': 5.37.0_7yuior3nseb5pya2lwpwzaadte
   '@typescript-eslint/parser': 5.37.0_4brgkhw6cq4me3drk3kxrpb2mm
-  '@vitejs/plugin-react': 2.1.0_vite@3.1.0
+  '@vitejs/plugin-react': 2.1.0_vite@3.1.2
   eslint: 8.23.1
   eslint-config-prettier: 8.5.0_eslint@8.23.1
   eslint-config-standard-with-typescript: 23.0.0_657ytwrrpjzh3amhlacyikutk4
@@ -59,7 +59,7 @@ devDependencies:
   stylelint-config-recess-order: 3.0.0_stylelint@14.11.0
   stylelint-config-standard: 28.0.0_stylelint@14.11.0
   typescript: 4.7.4
-  vite: 3.1.0
+  vite: 3.1.2
   vitest: 0.23.2_jsdom@20.0.0
 
 packages:
@@ -830,7 +830,7 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-react/2.1.0_vite@3.1.0:
+  /@vitejs/plugin-react/2.1.0_vite@3.1.2:
     resolution: {integrity: sha512-am6rPyyU3LzUYne3Gd9oj9c4Rzbq5hQnuGXSMT6Gujq45Il/+bunwq3lrB7wghLkiF45ygMwft37vgJ/NE8IAA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -843,7 +843,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.18.6_@babel+core@7.18.13
       magic-string: 0.26.2
       react-refresh: 0.14.0
-      vite: 3.1.0
+      vite: 3.1.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3794,8 +3794,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite/3.1.0:
-    resolution: {integrity: sha512-YBg3dUicDpDWFCGttmvMbVyS9ydjntwEjwXRj2KBFwSB8SxmGcudo1yb8FW5+M/G86aS8x828ujnzUVdsLjs9g==}
+  /vite/3.1.2:
+    resolution: {integrity: sha512-wTDKPkiVbeT+drTPdkuvjVIC/2vKKUc1w3qNOuwgpyvPCZF6fvdxB5v5WEcCsqaYea0zrwA4+XialJKCHM3oVQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -3854,7 +3854,7 @@ packages:
       tinybench: 2.1.5
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 3.1.0
+      vite: 3.1.2
     transitivePeerDependencies:
       - less
       - sass
