@@ -4,7 +4,10 @@
     "stylelint-config-recess-order",
     "stylelint-config-prettier"
   ],
-  "rules": {
-    "selector-class-pattern": null
-  }
+  "overrides": [
+    {
+      "files": ["src/**/*.{js,ts,jsx,tsx}"],
+      "customSyntax": "@stylelint/postcss-css-in-js"
+    }
+  ]
 }

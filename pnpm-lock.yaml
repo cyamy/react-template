@@ -5,6 +5,7 @@ specifiers:
   '@babel/plugin-syntax-jsx': ^7.18.6
   '@emotion/babel-plugin': ^11.10.2
   '@emotion/react': ^11.10.4
+  '@stylelint/postcss-css-in-js': ^0.38.0
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0
   '@types/react': 18.0.20
@@ -23,6 +24,8 @@ specifiers:
   eslint-plugin-react: 7.31.8
   eslint-plugin-testing-library: 5.6.4
   jsdom: 20.0.0
+  postcss: ^8.4.16
+  postcss-syntax: ^0.36.2
   prettier: 2.7.1
   react: 18.2.0
   react-dom: 18.2.0
@@ -43,6 +46,7 @@ devDependencies:
   '@babel/plugin-syntax-jsx': 7.18.6_@babel+core@7.19.1
   '@emotion/babel-plugin': 11.10.2_@babel+core@7.19.1
   '@emotion/react': 11.10.4_axxkdcpdr7up57umjkldobkynm
+  '@stylelint/postcss-css-in-js': 0.38.0_wuc352kuwbjfwnfzykq4fs3caq
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
   '@types/react': 18.0.20
@@ -61,6 +65,8 @@ devDependencies:
   eslint-plugin-react: 7.31.8_eslint@8.23.1
   eslint-plugin-testing-library: 5.6.4_4brgkhw6cq4me3drk3kxrpb2mm
   jsdom: 20.0.0
+  postcss: 8.4.16
+  postcss-syntax: 0.36.2_postcss@8.4.16
   prettier: 2.7.1
   stylelint: 14.12.1
   stylelint-config-prettier: 9.0.3_stylelint@14.12.1
@@ -604,6 +610,19 @@ packages:
 
   /@sinclair/typebox/0.24.28:
     resolution: {integrity: sha512-dgJd3HLOkLmz4Bw50eZx/zJwtBq65nms3N9VBYu5LTjJ883oBFkTyXRlCB/ZGGwqYpJJHA5zW2Ibhl5ngITfow==}
+    dev: true
+
+  /@stylelint/postcss-css-in-js/0.38.0_wuc352kuwbjfwnfzykq4fs3caq:
+    resolution: {integrity: sha512-XOz5CAe49kS95p5yRd+DAIWDojTjfmyAQ4bbDlXMdbZTQ5t0ThjSLvWI6JI2uiS7MFurVBkZ6zUqcimzcLTBoQ==}
+    peerDependencies:
+      postcss: '>=7.0.0'
+      postcss-syntax: '>=0.36.2'
+    dependencies:
+      '@babel/core': 7.19.1
+      postcss: 8.4.16
+      postcss-syntax: 0.36.2_postcss@8.4.16
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /@testing-library/dom/8.17.1:
@@ -3190,6 +3209,30 @@ packages:
     resolution: {integrity: sha512-iLBFYz6VRYyLJEJsBJ8M3TCqNcckVzz4wFounSc5Oez35ogE/X+aoC5fFu103Ot7NyvjU3/xqIXn93Gp3kJk4g==}
     peerDependencies:
       postcss: ^8.3.9
+    dependencies:
+      postcss: 8.4.16
+    dev: true
+
+  /postcss-syntax/0.36.2_postcss@8.4.16:
+    resolution: {integrity: sha512-nBRg/i7E3SOHWxF3PpF5WnJM/jQ1YpY9000OaVXlAQj6Zp/kIqJxEDWIZ67tAd7NLuk7zqN4yqe9nc0oNAOs1w==}
+    peerDependencies:
+      postcss: '>=5.0.0'
+      postcss-html: '*'
+      postcss-jsx: '*'
+      postcss-less: '*'
+      postcss-markdown: '*'
+      postcss-scss: '*'
+    peerDependenciesMeta:
+      postcss-html:
+        optional: true
+      postcss-jsx:
+        optional: true
+      postcss-less:
+        optional: true
+      postcss-markdown:
+        optional: true
+      postcss-scss:
+        optional: true
     dependencies:
       postcss: 8.4.16
     dev: true
