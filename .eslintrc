@@ -8,33 +8,37 @@
     "standard-with-typescript",
     "prettier"
   ],
-  "overrides": [{
-    "files": [
-      "**/__tests__/**/*.+(ts|tsx|js)",
-      "**/?(*.)+(spec|test).+(ts|tsx|js)"
-    ],
-    "extends": [
-      "plugin:jest-dom/recommended",
-      "plugin:testing-library/react"
-    ]
-  }],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
     },
     "ecmaVersion": "latest",
-    "sourceType": "module"
+    "sourceType": "module",
+    "project": ["./tsconfig.json"]
   },
   "plugins": ["@typescript-eslint", "react", "jest-dom", "testing-library"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "rules": {
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
     "no-console": ["warn"],
-    "no-unused-vars": ["warn"]
+    "no-unused-vars": ["warn"],
+    "react/react-in-jsx-scope": "off",
+    "react/no-unknown-property": ["error", { "ignore": ["css"] }]
   },
-  "ignorePatterns": [
-    "vite.config.ts",
-    "vitest.setup.ts"
-  ]
+  "overrides": [
+    {
+      "files": [
+        "**/__tests__/**/*.+(ts|tsx|js)",
+        "**/?(*.)+(spec|test).+(ts|tsx|js)"
+      ],
+      "extends": ["plugin:jest-dom/recommended", "plugin:testing-library/react"]
+    }
+  ],
+  "ignorePatterns": ["vite.config.ts", "vitest.setup.ts"]
 }

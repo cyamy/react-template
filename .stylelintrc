@@ -4,7 +4,5 @@
     "stylelint-config-recess-order",
     "stylelint-config-prettier"
   ],
-  "rules": {
-    "selector-class-pattern": null
-  }
+  "customSyntax": "@stylelint/postcss-css-in-js"
 }
