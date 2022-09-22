@@ -7,6 +7,13 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
+    "lint:es": "eslint \"./src/**/*.{js,jsx,ts,tsx}\" --cache --cache-strategy metadata --cache-location \"./node_modules/.cache/eslint/.eslintcache\"",
+    "lint:style": "stylelint \"./src/**/*.{css,js,jsx,ts,tsx}\" --cache --cacheLocation \"./node_modules/.cache/stylelint/.stylelintcache\"",
+    "lint:fmt": "prettier \"./src/**/*.{json,js,jsx,ts,tsx}\" --cache --cache-strategy metadata",
+    "fix": "yarn fix:style && yarn fix:es && yarn fix:fmt",
+    "fix:es": "eslint \"./src/**/*.{js,jsx,ts,tsx}\" --fix --cache --cache-strategy metadata --cache-location \"./node_modules/.cache/eslint/.eslintcache\"",
+    "fix:style": "stylelint \"./src/**/*.{css,js,jsx,ts,tsx}\" --fix --cache --cacheLocation \"./node_modules/.cache/stylelint/.stylelintcache\"",
+    "fix:fmt": "prettier \"./src/**/*.{json,js,jsx,ts,tsx}\" --write --cache --cache-strategy metadata",
     "test": "vitest run",
     "test:watch": "vitest dev",
     "test:coverage": "vitest run --coverage"
