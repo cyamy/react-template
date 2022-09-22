@@ -1,17 +1,17 @@
 import { useState } from 'react';
 import { app, body, card, logoReact, logoVite, readTheDocs } from './App.style';
 
-export const App = () => {
+export const App = (): JSX.Element => {
   const [count, setCount] = useState(0);
 
   return (
     <div css={body}>
       <div css={app}>
         <div>
-          <a href="https://vitejs.dev" target="_blank">
+          <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
             <img src="/vite.svg" css={logoVite} alt="Vite logo" />
           </a>
-          <a href="https://reactjs.org" target="_blank">
+          <a href="https://reactjs.org" target="_blank" rel="noreferrer">
             <img src="/react.svg" css={logoReact} alt="React logo" />
           </a>
         </div>

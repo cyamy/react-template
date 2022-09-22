@@ -1,7 +1,7 @@
-import React from 'react'
+import { FC } from 'react';
 
-const title = 'Hello Test'
+const title = 'Hello Test';
 
-export function MyComponent() {
-  return <div>{title}</div>
-}
+export const MyComponent: FC = () => {
+  return <div>{title}</div>;
+};
