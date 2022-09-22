@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { app, body, card, logoReact, logoVite, readTheDocs } from './App.style';
 
-function App() {
+export const App = () => {
   const [count, setCount] = useState(0);
 
   return (
@@ -28,6 +28,4 @@ function App() {
       </div>
     </div>
   );
-}
-
-export default App;
+};
