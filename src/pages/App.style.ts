@@ -1,5 +1,15 @@
 import { css, keyframes } from '@emotion/react';
 
+export const logoSpin = keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+`;
+
 export const body = css`
   display: flex;
   place-items: center;
@@ -42,14 +52,4 @@ export const card = css`
 
 export const readTheDocs = css`
   color: #888;
-`;
-
-export const logoSpin = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
 `;
