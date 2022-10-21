@@ -22,7 +22,7 @@ specifiers:
   eslint-plugin-n: 15.3.0
   eslint-plugin-promise: 6.0.1
   eslint-plugin-react: 7.31.8
-  eslint-plugin-testing-library: 5.7.2
+  eslint-plugin-testing-library: 5.9.1
   jsdom: 20.0.1
   postcss: 8.4.17
   postcss-syntax: 0.36.2
@@ -63,7 +63,7 @@ devDependencies:
   eslint-plugin-n: 15.3.0_eslint@8.25.0
   eslint-plugin-promise: 6.0.1_eslint@8.25.0
   eslint-plugin-react: 7.31.8_eslint@8.25.0
-  eslint-plugin-testing-library: 5.7.2_l76llshcx5hpzqzl7lfng4kpb4
+  eslint-plugin-testing-library: 5.9.1_l76llshcx5hpzqzl7lfng4kpb4
   jsdom: 20.0.1
   postcss: 8.4.17
   postcss-syntax: 0.36.2_postcss@8.4.17
@@ -1888,8 +1888,8 @@ packages:
       string.prototype.matchall: 4.0.7
     dev: true
 
-  /eslint-plugin-testing-library/5.7.2_l76llshcx5hpzqzl7lfng4kpb4:
-    resolution: {integrity: sha512-0ZmHeR/DUUgEzW8rwUBRWxuqntipDtpvxK0hymdHnLlABryJkzd+CAHr+XnISaVsTisZ5MLHp6nQF+8COHLLTA==}
+  /eslint-plugin-testing-library/5.9.1_l76llshcx5hpzqzl7lfng4kpb4:
+    resolution: {integrity: sha512-6BQp3tmb79jLLasPHJmy8DnxREe+2Pgf7L+7o09TSWPfdqqtQfRZmZNetr5mOs3yqZk/MRNxpN3RUpJe0wB4LQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0, npm: '>=6'}
     peerDependencies:
       eslint: ^7.5.0 || ^8.0.0
